@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jovia Health · Doctor-guided prescription skincare, coming soon</title>
+  <meta name="description" content="Jovia Derm is custom prescription skincare for acne, hyperpigmentation, rosacea, redness and melasma, guided by licensed U.S. doctors and refined as your skin changes. Join the waitlist.">
+  <link rel="canonical" href="https://joviahealth.com/">
+  <meta name="theme-color" content="#1E4434">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jovia Health">
+  <meta property="og:title" content="Jovia Health · Skincare that knows you. Coming soon.">
+  <meta property="og:description" content="Custom prescription skincare, guided by licensed U.S. doctors and refined as your skin changes. Join the waitlist.">
+  <meta property="og:url" content="https://joviahealth.com/">
+  <meta property="og:image" content="https://joviahealth.com/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jovia Health · Skincare that knows you. Coming soon.">
+  <meta name="twitter:description" content="Custom prescription skincare, guided by licensed U.S. doctors. Join the waitlist.">
+  <meta name="twitter:image" content="https://joviahealth.com/assets/og-image.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="/assets/img/hero-poster.jpg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Jovia Health","url":"https://joviahealth.com","logo":"https://joviahealth.com/apple-touch-icon.png"}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="Jovia Health home">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="26" cy="8.5" r="4.6" fill="var(--clay)"/><path d="M26 17.5v8.5a9 9 0 0 1-18 0" stroke="currentColor" stroke-width="5.2" stroke-linecap="round" fill="none"/></svg>
+      <span class="brand__word">jovia</span><span class="brand__tag">health</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#conditions">What we treat</a>
+      <a href="#doctors">Our doctors</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn--small btn--dark" href="#waitlist">Join the waitlist</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="blob blob--a"></span><span class="blob blob--b"></span><span class="blob blob--c"></span>
+    </div>
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow reveal"><span class="pulse" aria-hidden="true"></span> Jovia Derm · Coming soon</p>
+        <h1 id="hero-title" class="display reveal" data-delay="1">Clear skin, with a doctor <em>who knows you.</em></h1>
+        <p class="lede reveal" data-delay="2">Custom prescription skincare for acne, dark spots, redness and more. Guided by licensed U.S. doctors, made for your skin, and adjusted as it changes.</p>
+
+        <form class="waitlist reveal" data-delay="3" id="waitlist" novalidate aria-describedby="waitlist-note">
+          <!--
+            WAITLIST BACKEND: front-end only for now.
+            To go live, set WAITLIST_ENDPOINT in /main.js to your Formspree form URL
+            (e.g. https://formspree.io/f/xxxxxxx) or a Mailchimp/ConvertKit/serverless endpoint.
+            The form posts { email, source } as JSON. See submitWaitlist() in main.js.
+          -->
+          <label class="sr-only" for="email">Email address</label>
+          <div class="waitlist__field">
+            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@email.com" required>
+            <button class="btn btn--clay" type="submit"><span class="btn__label">Join the waitlist</span><span class="btn__spinner" aria-hidden="true"></span></button>
+          </div>
+          <p class="waitlist__note" id="waitlist-note">Be first in line when we open. No spam, unsubscribe anytime.</p>
+          <p class="waitlist__error" role="alert" aria-live="assertive"></p>
+          <div class="waitlist__success" role="status" aria-live="polite" tabindex="-1">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11"/><path d="M7 12.5l3.2 3.2L17 9"/></svg>
+            <div><strong>You're on the list.</strong><span>We'll email you as soon as Jovia opens in your state.</span></div>
+          </div>
+        </form>
+
+        <ul class="hero__points reveal" data-delay="4" aria-label="Highlights">
+          <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 6"/></svg>Licensed U.S. doctors</li>
+          <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 6"/></svg>Formulas made for you</li>
+          <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l3.5 3.5L16 6"/></svg>For every skin type</li>
+        </ul>
+      </div>
+
+      <div class="hero__media reveal" data-delay="2">
+        <div class="hero__frame" data-parallax="0.06">
+          <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="/assets/img/hero-poster.jpg" aria-label="People of different ages and genders caring for their skin">
+            <source src="/assets/video/hero.webm" type="video/webm">
+            <source src="/assets/video/hero.mp4" type="video/mp4">
+          </video>
+          <button class="video-toggle" type="button" aria-label="Pause background video" aria-pressed="false">
+            <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="6" width="3.5" height="12" rx="1"/><rect x="13.5" y="6" width="3.5" height="12" rx="1"/></svg>
+            <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6l10 6-10 6z"/></svg>
+          </button>
+        </div>
+        <div class="float-card float-card--rx" data-parallax="-0.08" aria-hidden="true">
+          <span class="float-card__k">Your formula</span>
+          <span class="float-card__v">Made for your skin</span>
+          <span class="float-card__bars"><i style="--w:72%"></i><i style="--w:48%"></i><i style="--w:30%"></i></span>
+        </div>
+        <div class="float-card float-card--doc" data-parallax="0.1" aria-hidden="true">
+          <span class="avatar"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></span>
+          <span><span class="float-card__k">Reviewed by</span><span class="float-card__v">Your Jovia doctor</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Acne</span><i>✦</i><span>Dark spots</span><i>✦</i><span>Rosacea</span><i>✦</i><span>Redness</span><i>✦</i><span>Melasma</span><i>✦</i><span>Uneven tone</span><i>✦</i><span>Fine lines</span><i>✦</i><span>Breakouts</span><i>✦</i>
+      <span>Acne</span><i>✦</i><span>Dark spots</span><i>✦</i><span>Rosacea</span><i>✦</i><span>Redness</span><i>✦</i><span>Melasma</span><i>✦</i><span>Uneven tone</span><i>✦</i><span>Fine lines</span><i>✦</i><span>Breakouts</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how" id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow reveal">How it works</p>
+        <h2 id="how-title" class="h2 reveal" data-delay="1">Skincare that gets to know you, <em>then keeps up with you.</em></h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal" data-delay="1">
+          <figure class="step__img"><img src="/assets/img/learn.jpg" alt="A man looking closely at his skin in the bathroom mirror" loading="lazy" width="900" height="506"></figure>
+          <span class="step__n">01</span>
+          <h3>Learn your skin</h3>
+          <p>Share a few photos and tell us about your skin, history and goals. Our tools help organize the details so your doctor sees the full picture.</p>
+        </li>
+        <li class="step reveal" data-delay="2">
+          <figure class="step__img"><img src="/assets/img/prescribe.jpg" alt="A doctor writing notes on a clipboard" loading="lazy" width="900" height="506"></figure>
+          <span class="step__n">02</span>
+          <h3>Get your custom prescription</h3>
+          <p>A licensed U.S. doctor reviews everything and, when it's right for you, prescribes a formula made for your skin, delivered to your door.</p>
+        </li>
+        <li class="step reveal" data-delay="3">
+          <figure class="step__img"><img src="/assets/img/refine.jpg" alt="A woman in a bathrobe checking her skin in a round mirror" loading="lazy" width="900" height="506"></figure>
+          <span class="step__n">03</span>
+          <h3>Refine it monthly</h3>
+          <p>Check in with progress photos. Your doctor adjusts your formula over time, so your routine evolves as your skin does.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FORMULA FEATURE -->
+  <section class="section formula" aria-labelledby="formula-title">
+    <div class="wrap formula__grid">
+      <div class="formula__visual reveal">
+        <video class="formula__video" autoplay muted loop playsinline preload="none" poster="/assets/img/drop-poster.jpg" aria-hidden="true" tabindex="-1">
+          <source src="/assets/video/drop.mp4" type="video/mp4">
+        </video>
+        <div class="bottle" data-parallax="-0.05" aria-hidden="true">
+          <div class="bottle__cap"></div>
+          <div class="bottle__body">
+            <svg viewBox="0 0 40 40"><circle cx="26" cy="8.5" r="4.6" fill="#E08A5E"/><path d="M26 17.5v8.5a9 9 0 0 1-18 0" stroke="#F6EFE4" stroke-width="5.2" stroke-linecap="round" fill="none"/></svg>
+            <span class="bottle__brand">jovia</span>
+            <span class="bottle__name">Formula Nº 01</span>
+            <span class="bottle__for">Prepared for <b>You</b></span>
+          </div>
+        </div>
+        <p class="formula__caption">Illustrative packaging</p>
+      </div>
+      <div class="formula__copy">
+        <p class="eyebrow reveal">Your formula</p>
+        <h2 id="formula-title" class="h2 reveal" data-delay="1">One bottle. <em>Made for one person.</em></h2>
+        <p class="body reveal" data-delay="2">Off-the-shelf products are made for everyone, which means they're not really made for anyone. Your Jovia formula combines prescription-strength ingredients chosen by your doctor for your skin, your concerns and your goals.</p>
+        <ul class="ticks reveal" data-delay="3">
+          <li>Prescription ingredients, compounded for you</li>
+          <li>Adjusted as your skin responds</li>
+          <li>Delivered monthly, pause or cancel anytime</li>
+          <li>Real messages from a real doctor when you have questions</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONDITIONS -->
+  <section class="section conditions" id="conditions" aria-labelledby="cond-title">
+    <div class="wrap">
+      <div class="section__head section__head--split">
+        <div>
+          <p class="eyebrow reveal">What we'll treat</p>
+          <h2 id="cond-title" class="h2 reveal" data-delay="1">Starting with the skin concerns <em>people ask about most.</em></h2>
+        </div>
+        <p class="body reveal" data-delay="2">Jovia Derm is our first product. It's built for teens and adults of every gender and skin tone, because good skin care shouldn't depend on who you are or where you live.</p>
+      </div>
+      <div class="cond-grid">
+        <article class="cond reveal" data-delay="1"><span class="cond__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="12" r="3"/><circle cx="21" cy="18" r="2.2"/><circle cx="13" cy="22" r="1.6"/></svg></span><h3>Acne</h3><p>Breakouts, clogged pores and the marks they leave behind.</p></article>
+        <article class="cond reveal" data-delay="2"><span class="cond__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 20c3-8 13-8 16 0"/><circle cx="12" cy="13" r="1.8"/><circle cx="19" cy="11" r="2.4"/></svg></span><h3>Hyperpigmentation</h3><p>Dark spots, sun spots and post-acne marks that won't fade.</p></article>
+        <article class="cond reveal" data-delay="3"><span class="cond__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 6c4 5 7 8 7 12a7 7 0 0 1-14 0c0-4 3-7 7-12z"/></svg></span><h3>Rosacea</h3><p>Flushing, visible vessels and bumps that come and go.</p></article>
+        <article class="cond reveal" data-delay="1"><span class="cond__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="9"/><circle cx="16" cy="16" r="4"/></svg></span><h3>Redness</h3><p>Persistent redness, irritation and sensitive, reactive skin.</p></article>
+        <article class="cond reveal" data-delay="2"><span class="cond__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M7 18c4-2 6 3 10 1s5-6 8-4"/><path d="M7 13c4-2 6 3 10 1s5-6 8-4"/></svg></span><h3>Melasma</h3><p>Patchy, stubborn discoloration, often hormone- or sun-related.</p></article>
+        <article class="cond reveal" data-delay="3"><span class="cond__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M7 12c5 3 13 3 18 0"/><path d="M9 18c4 2 10 2 14 0"/><path d="M12 23c2 1 6 1 8 0"/></svg></span><h3>Fine lines &amp; texture</h3><p>Early signs of aging and rough, uneven texture.</p></article>
+      </div>
+
+      <div class="people" aria-label="Jovia is for everyone">
+        <figure class="people__item people__item--tall reveal" data-delay="1"><img src="/assets/img/woman-cream.jpg" alt="A young woman applying cream under her eye" loading="lazy"></figure>
+        <figure class="people__item reveal" data-delay="2"><img src="/assets/img/man-apply.jpg" alt="A man with a beard examining his skin in soft light" loading="lazy"></figure>
+        <figure class="people__quote reveal" data-delay="3">
+          <p>For him, her, them, <em>and the whole family.</em></p>
+          <span>Skin care is health care. We're building Jovia for everyone.</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORS / TRUST -->
+  <section class="section doctors" id="doctors" aria-labelledby="doc-title">
+    <div class="doctors__bg" aria-hidden="true"></div>
+    <div class="wrap doctors__grid">
+      <div class="doctors__copy">
+        <p class="eyebrow eyebrow--light reveal">Guided by doctors</p>
+        <h2 id="doc-title" class="h2 h2--light reveal" data-delay="1">Smart technology. <em>Real, licensed U.S. doctors.</em></h2>
+        <p class="body body--light reveal" data-delay="2">Every diagnosis and prescription on Jovia will be made by a licensed U.S. medical provider, never by software alone. Our technology does the busywork: organizing your photos, tracking changes over time and keeping your history in one place. Your doctor makes the calls.</p>
+        <div class="pillars">
+          <div class="pillar reveal" data-delay="1"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M14 3l9 4v6c0 6-4 10-9 12-5-2-9-6-9-12V7z"/><path d="M10 14l3 3 5-6"/></svg><h3>Private by design</h3><p>Built with strict privacy and security practices. We will never sell your data.</p></div>
+          <div class="pillar reveal" data-delay="2"><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="10" r="5"/><path d="M5 25c1.5-5 5-7.5 9-7.5s7.5 2.5 9 7.5"/></svg><h3>A doctor you can reach</h3><p>Message your care team when you have a question. No waiting room.</p></div>
+          <div class="pillar reveal" data-delay="3"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M4 20l6-6 4 4 10-10"/><path d="M18 8h6v6"/></svg><h3>Progress you can see</h3><p>Monthly check-ins with photos, so you and your doctor can track what's working.</p></div>
+        </div>
+      </div>
+      <div class="doctors__media reveal" data-delay="2">
+        <div class="doctors__frame" data-parallax="0.05">
+          <video autoplay muted loop playsinline preload="none" poster="/assets/img/doctor-poster.jpg" aria-hidden="true" tabindex="-1">
+            <source src="/assets/video/doctor.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="badge-card" aria-hidden="true">
+          <span class="badge-card__dot"></span>
+          <span><b>Licensed U.S. providers</b><small>Every plan reviewed by a doctor</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVESTORS -->
+  <section class="section investors" id="investors" aria-labelledby="inv-title" data-investors>
+    <div class="wrap">
+      <div class="section__head section__head--center">
+        <p class="eyebrow reveal">Our backers</p>
+        <h2 id="inv-title" class="h2 reveal" data-delay="1">Backed by Y Combinator and founders <em>behind Twitch, Dropbox and BloomTech.</em></h2>
+      </div>
+      <ul class="logos reveal" data-delay="2" aria-label="Investment firms">
+        <li class="logo logo--yc" title="Y Combinator">
+          <svg viewBox="0 0 256 256" aria-hidden="true"><rect width="256" height="256" rx="18" fill="currentColor"/><path d="M119.373653,144.745813 L75.43296,62.4315733 L95.5144533,62.4315733 L121.36192,114.52416 C121.759575,115.452022 122.2235,116.413008 122.753707,117.407147 C123.283914,118.401285 123.747838,119.428546 124.145493,120.48896 C124.410597,120.886615 124.609422,121.251127 124.741973,121.582507 C124.874525,121.913886 125.007075,122.212123 125.139627,122.477227 C125.802386,123.802744 126.39886,125.095105 126.929067,126.354347 C127.459274,127.613589 127.923198,128.773399 128.320853,129.833813 C129.381268,127.580433 130.541078,125.1614 131.80032,122.57664 C133.059562,119.99188 134.351922,117.307747 135.67744,114.52416 L161.92256,62.4315733 L180.612267,62.4315733 L136.27392,145.739947 L136.27392,198.826667 L119.373653,198.826667 L119.373653,144.745813 Z" fill="var(--logo-knock)"/></svg>
+          <span>Combinator</span><span class="sr-only">Y Combinator</span>
+        </li>
+        <li class="logo logo--serif">Pioneer Fund</li>
+        <li class="logo logo--caps">Soma Capital</li>
+        <li class="logo logo--sans">Liquid&nbsp;<b>2</b>&nbsp;Ventures</li>
+        <li class="logo logo--light">Fundamental <b>Ventures</b></li>
+        <li class="logo logo--caps logo--wide">Remus Capital</li>
+        <li class="logo logo--serif logo--italic">South Quad</li>
+        <li class="logo logo--sans"><b>SV</b>&nbsp;Tech Ventures</li>
+        <li class="logo logo--caps">Fairchild Fund</li>
+      </ul>
+      <p class="angels__label reveal">With support from individual investors including</p>
+      <ul class="angels" aria-label="Individual investors">
+        <li class="angel reveal" data-delay="1"><b>Garry Tan</b><span>President &amp; CEO, Y Combinator</span></li>
+        <li class="angel reveal" data-delay="2"><b>Emmett Shear</b><span>Co-founder, Twitch</span></li>
+        <li class="angel reveal" data-delay="3"><b>Arash Ferdowsi</b><span>Co-founder, Dropbox</span></li>
+        <li class="angel reveal" data-delay="1"><b>Austen Allred</b><span>Founder, BloomTech</span></li>
+        <li class="angel reveal" data-delay="2"><b>Samvit Ramadurgam</b><span>Founder, Forge</span></li>
+        <li class="angel reveal" data-delay="3"><b>Jennifer Campbell</b><span>Angel investor</span></li>
+        <li class="angel reveal" data-delay="1"><b>Marc Bhargava</b><span>Angel investor</span></li>
+        <li class="angel reveal" data-delay="2"><b>John Melas-Kyriazi</b><span>Angel investor</span></li>
+        <li class="angel reveal" data-delay="3"><b>Alan Rutledge</b><span>Angel investor</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq__grid">
+      <div>
+        <p class="eyebrow reveal">FAQ</p>
+        <h2 id="faq-title" class="h2 reveal" data-delay="1">Good questions, <em>straight answers.</em></h2>
+        <p class="body reveal" data-delay="2">Something else on your mind? Write to us at <a class="link" href="mailto:hello@joviahealth.com">hello@joviahealth.com</a>.</p>
+      </div>
+      <div class="faq__list">
+        <details class="qa reveal"><summary>When does Jovia launch?<span class="qa__plus" aria-hidden="true"></span></summary><div class="qa__a"><p>We're putting the finishing touches on Jovia Derm now and will open access in waves. Join the waitlist and you'll be among the first to hear when we're live in your state.</p></div></details>
+        <details class="qa reveal"><summary>Is Jovia available right now?<span class="qa__plus" aria-hidden="true"></span></summary><div class="qa__a"><p>Not yet. We aren't taking patients or issuing prescriptions today. Everything on this page describes how Jovia will work at launch.</p></div></details>
+        <details class="qa reveal"><summary>Who will review my treatment?<span class="qa__plus" aria-hidden="true"></span></summary><div class="qa__a"><p>Every assessment and prescription will come from a licensed U.S. medical provider. Our software helps organize information and track progress, but a doctor makes every treatment decision.</p></div></details>
+        <details class="qa reveal"><summary>Is Jovia for men too?<span class="qa__plus" aria-hidden="true"></span></summary><div class="qa__a"><p>Absolutely. Acne, dark spots and redness affect everyone. Jovia is built for adults and teens of every gender and skin tone (patients under 18 will need a parent or guardian's consent).</p></div></details>
+        <details class="qa reveal"><summary>How much will it cost?<span class="qa__plus" aria-hidden="true"></span></summary><div class="qa__a"><p>We'll share simple, upfront monthly pricing before launch, with no surprise fees. Waitlist members hear first.</p></div></details>
+        <details class="qa reveal"><summary>Which states will you serve?<span class="qa__plus" aria-hidden="true"></span></summary><div class="qa__a"><p>We plan to launch across the U.S. in stages. When you join the waitlist we'll let you know as soon as Jovia is available where you live.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="wrap">
+      <div class="cta__card reveal">
+        <div class="cta__glow" aria-hidden="true"></div>
+        <h2 id="cta-title" class="h2 h2--light">Your skin, <em>finally understood.</em></h2>
+        <p class="body body--light">Join the waitlist for early access to Jovia Derm.</p>
+        <a class="btn btn--cream" href="#waitlist" data-focus-email>Get early access</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <a class="brand brand--light" href="#top" aria-label="Jovia Health home">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="26" cy="8.5" r="4.6" fill="var(--clay-2)"/><path d="M26 17.5v8.5a9 9 0 0 1-18 0" stroke="currentColor" stroke-width="5.2" stroke-linecap="round" fill="none"/></svg>
+        <span class="brand__word">jovia</span><span class="brand__tag">health</span>
+      </a>
+      <p>Doctor-guided skincare, made for you.</p>
+    </div>
+    <nav class="footer__col" aria-label="Product"><h3>Product</h3><a href="#how">How it works</a><a href="#conditions">What we treat</a><a href="#doctors">Our doctors</a><a href="#faq">FAQ</a></nav>
+    <nav class="footer__col" aria-label="Company"><h3>Company</h3><a href="mailto:hello@joviahealth.com">Contact</a><a href="mailto:press@joviahealth.com">Press</a><a href="#investors">Investors</a></nav>
+    <nav class="footer__col" aria-label="Legal"><h3>Legal</h3><a href="#" data-placeholder>Privacy Policy</a><a href="#" data-placeholder>Terms of Service</a><a href="#" data-placeholder>Notice of Privacy Practices</a><a href="#" data-placeholder>Telehealth Consent</a></nav>
+  </div>
+  <div class="wrap footer__base">
+    <p>&copy; 2026 Jovia Health. All rights reserved.</p>
+    <p class="footer__disclaimer">Jovia is not yet available, and nothing on this site is medical advice. If you have a medical emergency, call 911.</p>
+  </div>
+</footer>
+
+<script src="/main.js" defer></script>
+</body>
+</html>
