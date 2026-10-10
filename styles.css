@@ -143,18 +143,8 @@ figure{margin:0}
 
 .formula{background:var(--oat)}
 .formula__grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
-.formula__visual{position:relative;aspect-ratio:1/1;border-radius:var(--r-lg);overflow:hidden;background:#cfe3e4;box-shadow:var(--shadow)}
-.formula__video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.55) sepia(.25) hue-rotate(-10deg) brightness(1.05)}
-.formula__visual::before{content:"";position:absolute;inset:0;z-index:1;background:radial-gradient(70% 70% at 50% 55%,rgba(243,236,225,.15),rgba(30,68,52,.35))}
-.bottle{position:absolute;z-index:2;left:50%;top:50%;width:38%;translate:-50% -46%}
-.bottle__cap{width:44%;height:52px;margin:0 auto;background:linear-gradient(90deg,#B85E37,var(--clay-2) 45%,#B85E37);border-radius:10px 10px 4px 4px}
-.bottle__body{position:relative;margin-top:-2px;aspect-ratio:3/4.2;border-radius:28px;background:linear-gradient(100deg,#173829 0%,var(--green-2) 40%,#21503C 70%,#163526 100%);box-shadow:0 40px 60px -25px rgba(0,0,0,.55),inset 6px 0 18px rgba(255,255,255,.08);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:var(--cream);text-align:center;padding:20px}
-.bottle__body::after{content:"";position:absolute;top:10%;left:12%;width:10%;height:70%;border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.22),transparent);filter:blur(2px)}
-.bottle__body svg{width:34px;height:34px;margin-bottom:6px}
-.bottle__brand{font-family:var(--serif);font-size:1.8rem;letter-spacing:-.03em;line-height:1}
-.bottle__name{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;opacity:.75}
-.bottle__for{margin-top:14px;font-size:.72rem;padding:5px 10px;border:1px solid rgba(251,248,242,.3);border-radius:999px}
-.formula__caption{position:absolute;z-index:2;bottom:14px;left:18px;font-size:.72rem;color:rgba(251,248,242,.8);letter-spacing:.06em}
+.formula__visual{position:relative;aspect-ratio:1/1;border-radius:var(--r-lg);overflow:hidden;background:#D9CEBD;box-shadow:var(--shadow)}
+.formula__img{width:100%;height:100%;object-fit:cover}
 .ticks{margin-top:30px;display:grid;gap:14px}
 .ticks li{position:relative;padding-left:34px;font-weight:500}
 .ticks li::before{content:"";position:absolute;left:0;top:3px;width:22px;height:22px;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23FBF8F2' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 10.5l3 3L15 7'/%3E%3C/svg%3E") center/14px no-repeat}
