@@ -197,7 +197,7 @@ figure{margin:0}
 .logo--sans b{font-weight:800}
 .logo--light{font-weight:300;letter-spacing:-.01em}.logo--light b{font-weight:600;margin-left:.25em}
 .angels__label{text-align:center;margin:56px 0 26px;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
-.angels{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.angels{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .angel{display:flex;flex-direction:column;gap:2px;padding:18px 22px;border:1px solid var(--line);border-radius:16px;background:#fff;transition:transform .4s var(--ease),border-color .4s}
 .angel:hover{transform:translateY(-3px);border-color:rgba(200,105,63,.4)}
 .angel b{font-family:var(--serif);font-weight:500;font-size:1.12rem;color:var(--ink)}
