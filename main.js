@@ -118,6 +118,7 @@
   }
 
   const form = document.getElementById('waitlist');
+  if (!form) return;
   const input = document.getElementById('email');
   const err = form.querySelector('.waitlist__error');
   const success = form.querySelector('.waitlist__success');
